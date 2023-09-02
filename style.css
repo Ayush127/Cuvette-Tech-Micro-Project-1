@@ -1,0 +1,153 @@
+.float-child{
+    border : 0%;
+    border-color: #FFCD9E;
+    
+    padding: 0%;
+    background-color: #FFCD9E;
+    width: 1440px;
+    height: 575px;
+    float: left;
+
+}
+.left-child{
+    width: 50%;
+    float: left;
+
+}
+.right-child{
+    width: 50%;
+    float: right;
+    
+}
+#main-image{
+    width: 575;
+    height: 575px;
+       
+}
+#heading{
+    /* width: 562px;
+    height: 108px; */
+    margin-top: 83px;
+    margin-left: 136px;  
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+#para-1{
+    width: 495px;
+    height: 81px;
+    /* margin-top: 219px; */
+    margin-left: 136px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+#para-2{
+    margin-left: 136px;
+    margin: top 315px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+input{
+    border-color: black;
+    border-radius: 8px;
+    width: 344px;
+    height: 64px;
+    margin-left: 136px;
+    margin-top: 4px; 
+    padding: 0px;
+    display: inline-block;
+}
+::placeholder{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    padding: 22px;
+    
+}
+    
+
+ 
+button{
+    width: 216px;
+    height: 64px;
+    
+    margin-left: 10px; /* Adjust this value to control the spacing between input and button */
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    font-size: large;
+    font-family: Inter;
+    /* Add float: left to the button if needed */
+    /* float: left; */
+}
+#small-text{
+    width: 344px;
+    height: 61px;
+    /* margin-top: 479px; */
+    margin-left: 134px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+
+
+
+}
+
+.float-child-bottom{
+    width: 1440px;
+    height: 400px;
+    background-color: black;
+    border : 0%;
+    float: left;
+    
+}
+
+.left-child-bottom{
+    width: 50px;
+    float: left;
+    margin-top: 62px;
+    margin-left: 191px;
+}
+.right-child-bottom{
+    width: 50%;
+    float: right;
+    margin: 62px;
+    
+    
+}
+.bottom-text{
+    
+    width: 220px;
+    height: 36px;
+    margin: px;
+    padding: 0px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
